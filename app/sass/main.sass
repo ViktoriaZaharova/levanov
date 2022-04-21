@@ -1,0 +1,364 @@
+@import "vars"
+
+/*==========  section home ==========*/
+.home
+  position: relative
+  background: linear-gradient(360deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 71.31%), url("../img/bg1.jpeg") no-repeat center bottom
+    size: cover
+  padding: 122px 0 34px
+  color: #fff
+  z-index: 1
+  .btn
+    margin: 44px 0 0
+
+.home-decor
+  position: absolute
+  z-index: -1
+
+.home-decor1
+  background: url("../img/circle.svg") no-repeat center
+    size: 100%
+  width: 2543px
+  height: 1512px
+  left: -984px
+  top: 0
+  transition: .3s ease
+  animation: background 5s ease infinite
+
+.home-decor2
+  background: url("../img/circle2.svg") no-repeat center
+    size: 100%
+  width: 1340px
+  height: 1050px
+  top: -69px
+  right: -423px
+
+.home-content
+  margin: 104px 0 0
+
+.brands
+  margin: 102px 0 0
+
+  p
+    margin: 0 0 22px
+    font-size: 20px
+
+.brands-wrapper
+  display: flex
+  align-items: center
+  border: 1px solid #FFFFFF
+    radius: 50px
+  padding: 19px 24px
+
+.brands-item
+  padding: 0 17px
+  display: flex
+  align-items: center
+  justify-content: center
+
+.home-img
+  display: flex
+  align-items: center
+  justify-content: center
+
+@keyframes background
+  50%
+    transform: rotate(180deg)
+/*==========  section home end  ==========*/
+
+
+/*==========  section portfolio ==========*/
+.portfolio
+  position: relative
+  z-index: 1
+  padding: 196px 0 52px
+
+  h2
+    font-size: 88px
+    margin: 0 0 38px
+
+.nav-tabs
+  width: 100%
+  font-size: 24px
+  font-weight: bold
+  margin: 0 0 47px
+  border: none
+    radius: 0
+
+  .nav-item
+    margin: 0 70px 0 0
+
+    &:last-child
+      margin: 0
+
+  .nav-link
+    margin: 0
+    color: #000
+    text-transform: uppercase
+    padding: 0 0 5px
+    border: none
+      radius: 0
+      bottom: 3px solid transparent
+
+    &.active
+      background: transparent
+      color: #000
+      border-bottom-color: $red
+
+.btn-toggle
+  margin: 37px auto 0
+
+.portfolio-box
+  background: #fff
+  width: 100%
+  height: 100%
+  position: relative
+  box-shadow: 0 14px 34px rgba(43, 198, 244, 0.2)
+  border-radius: 20px
+  padding: 32px 9px 29px 42px
+  display: flex
+  align-items: stretch
+  flex-wrap: wrap
+
+  &__img
+    display: flex
+    align-items: center
+    justify-content: center
+    max-width: 316px
+    height: 305px
+    width: 100%
+    padding: 15px
+
+    img
+      max-height: 100%
+      width: fit-content
+  //max-width:
+  &__content
+    width: calc(100% - 316px)
+    display: flex
+    flex-direction: column
+
+  &__category
+    margin: 0 0 50px
+    color: $red
+    font-weight: 300
+
+  &__title
+    margin: 0 0 30px
+    text-transform: uppercase
+    color: #000
+    font-size: 24px
+    font-weight: 700
+
+  .box-text
+    font-size: 14px
+    line-height: 17px
+
+.list-tags
+  width: 100%
+  display: flex
+  align-items: flex-start
+  flex-wrap: wrap
+
+  li
+    margin: 0 17px 15px 0
+    background: #C9F3FF
+    height: 23px
+    border-radius: 12px
+    display: flex
+    align-items: center
+    justify-content: center
+    padding: 0 30px
+    color: #2BC6F4
+    font-size: 10px
+    font-weight: 300
+
+    &:last-child
+      margin-right: 0
+
+.tags-item-max
+  padding: 0 45px
+
+.link
+  display: flex
+  align-items: center
+  justify-content: center
+  width: 28px
+  height: 24px
+  stroke: $accent
+  fill: none
+  position: absolute
+  z-index: 1
+  top: 28px
+  right: 31px
+
+
+/*==========  section portfolio end  ==========*/
+
+/*==========  section price ==========*/
+.price-section
+  position: relative
+  z-index: 1
+  &:before
+    content: ''
+    position: absolute
+    background: url("../img/circle.svg") no-repeat center
+      size: contain
+    width: 2657px
+    height: 1146px
+    top: 50%
+    transform: translate(0,-50%)
+    right: -50%
+  h2
+    margin: 0 0 63px
+
+.price-box
+  width: 100%
+  height: 100%
+  background: #fff
+  box-shadow: 0 14px 34px rgba(43, 198, 244, 0.2)
+  border-radius: 20px
+  padding: 53px 40px 46px
+  display: flex
+  align-items: stretch
+  flex-wrap: wrap
+  &__info
+    width: 50%
+    padding: 0 45px 0 0
+    border-right: 1px solid $accent
+  .box-text
+    color: #676767
+    font-size: 16px
+    line-height: 17px
+  h3
+    margin: 0 0 13px
+    text-transform: uppercase
+    font-size: 24px
+    line-height: 27px
+    font-weight: bold
+    min-height: 54px
+  &__price
+    padding: 0 0 0 40px
+    width: 50%
+
+.price
+  margin: 0 0 20px
+  font-size: 48px
+  font-weight: bold
+  color: $accent
+  span
+    display: block
+    font-size: 24px
+    margin: 0 0 12px
+
+
+/*==========  section price end  ==========*/
+
+
+/*==========  section about ==========*/
+.about
+  padding: 180px 0 130px
+  h2
+    margin: 0 0 44px
+
+
+.about-box
+  height: 100%
+  border-right: 1px solid $red
+  padding: 0 30px
+  h4
+    text-transform: uppercase
+    font-size: 20px
+    margin: 0 0 19px
+
+.about-box-first
+  padding-left: 0
+
+.about-box-last
+  border: none
+  padding-right: 0
+
+.logo-partner
+  display: flex
+  align-items: center
+  margin: 0 0 30px
+  max-width: 266px
+
+.certificate
+  display: flex
+  align-items: center
+  margin: 36px 0 0
+  filter: drop-shadow(0px 14px 34px rgba(43, 198, 244, 0.2))
+  border-radius: 20px
+  max-width: 346px
+  width: 100%
+  overflow: hidden
+
+/*==========  section about end  ==========*/
+
+/*==========  section reviews ==========*/
+.reviews
+  position: relative
+  padding: 0 0 77px
+  z-index: 1
+  &:before
+    content: ''
+    position: absolute
+    width: 1420px
+    height: 1353px
+    background: url("../img/circle3.svg") no-repeat center
+      size: 100%
+    left: -732px
+    top: -234px
+  .box-text
+    color: #767676
+
+.video-reviews
+  padding-bottom: 56.25%
+  position: relative
+  width: 100%
+  iframe
+    width: 100%
+    height: 100%
+    position: absolute
+    left: 0
+    top: 0
+
+.reviews-box
+  width: 100%
+  box-shadow: 0px 14px 34px rgba(43, 198, 244, 0.2)
+  background: #fff
+  border-radius: 20px
+  padding: 20px 12px 40px 22px
+  display: flex
+  align-items: flex-start
+  margin-top: 28px
+  &__photo
+    display: flex
+    align-items: center
+    justify-content: center
+    border-radius: 50%
+    overflow: hidden
+    width: 85px
+    height: 85px
+    img
+      width: 100%
+      height: 100%
+      object-fit: cover
+  &__body
+    width: calc(100% - 85px)
+    padding: 15px 0 0 33px
+  h3
+    color: $red
+    font-weight: bold
+    margin: 0 0 10px
+  .box-text
+    color: #000
+    font-size: 16px
+    margin: 15px 0 0
+
+.links-web
+  color: $red
+  &:hover
+    color: $accent
+/*==========  section end  ==========*/

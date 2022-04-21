@@ -1,0 +1,106 @@
+/*==========  footer  ==========*/
+footer {
+  position: relative;
+  color: #fff;
+  padding: 136px 0; }
+  footer h2 {
+    margin: 0 0 46px; }
+
+.phone, .mail {
+  color: #fff; }
+  .phone:hover, .mail:hover {
+    color: #2BC6F4; }
+
+.phone {
+  font-size: 48px;
+  font-weight: bold; }
+
+.mail {
+  margin: 0 auto;
+  font-size: 24px;
+  font-weight: 500; }
+
+.footer-box {
+  font-size: 12px;
+  margin: 0 0 0 89px; }
+
+.links-document {
+  color: #fff;
+  margin: 0 0 15px; }
+  .links-document:last-child {
+    margin: 0; }
+  .links-document:hover {
+    color: #FF003C; }
+
+.address {
+  max-width: 376px;
+  width: 100%;
+  font-size: 24px;
+  font-weight: 500; }
+
+/*==========  footer end  ==========*/
+/*==========  modal  ==========*/
+.modal-dialog {
+  margin: auto;
+  max-width: 487px; }
+
+.modal-content {
+  border: none;
+    border-radius: 20px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 14px 34px rgba(43, 198, 244, 0.2);
+          box-shadow: 0px 14px 34px rgba(43, 198, 244, 0.2);
+  padding: 62px 42px 34px; }
+
+.modal-body {
+  padding: 0; }
+
+.modal-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 35px;
+  margin: 0 auto 9px;
+  width: 100%;
+  line-height: 37px; }
+
+.modal-header {
+  border: none;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+  padding: 0;
+  margin: 0 0 22px; }
+  .modal-header .box-text {
+    max-width: 196px;
+    margin: 0 auto;
+    color: #000000;
+    font-size: 16px;
+    line-height: 17px; }
+  .modal-header .close {
+    position: absolute;
+    background: #FF003C;
+    border: none;
+      border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 18px;
+    width: 52px;
+    height: 52px;
+    margin: 0;
+    z-index: 1;
+    opacity: 1;
+    fill: #fff;
+    -webkit-box-shadow: 0px 14px 34px rgba(255, 0, 60, 0.3);
+            box-shadow: 0px 14px 34px rgba(255, 0, 60, 0.3);
+    top: -26px;
+    right: -26px; }
+
+/*==========  modal end  ==========*/
