@@ -8,6 +8,7 @@
   padding: 122px 0 34px
   color: #fff
   z-index: 1
+  animation: gradient 10s ease infinite
   .btn
     margin: 44px 0 0
 
@@ -22,8 +23,7 @@
   height: 1512px
   left: -984px
   top: 0
-  transition: .3s ease
-  animation: background 5s ease infinite
+
 
 .home-decor2
   background: url("../img/circle2.svg") no-repeat center
@@ -61,9 +61,15 @@
   align-items: center
   justify-content: center
 
-@keyframes background
+@keyframes gradient
+  0%
+    background-position: 0 50%
+
   50%
-    transform: rotate(180deg)
+    background-position: 100% 50%
+
+  100%
+    background-position: 0 50%
 /*==========  section home end  ==========*/
 
 
